@@ -40,7 +40,7 @@
 
 ### Answer: 
   Probability model for image/data at index 30 in the x_test set. The random digit had the highest probability (nearly 100%) that it is a label four. 
-  (insert image)
+  
   
 ### - Use np.argmax() with your predictions object to return the numeral with the highest probability from the test labels dataset.
 
@@ -50,3 +50,4 @@
 ### - Produce the following plot for your randomly selected image from the test dataset.
 
 ### Answer:
+  ![](DATA310_Resp7_8.png)      ![](DATA310_Resp7_8pt2.png)
