@@ -39,8 +39,8 @@
 ### - Estimate a probability model and apply it to the test set in order to produce the array of probabilities that a randomly selected image is each of the possible numeric outcomes (look towards the end of the basic image classification exercises for how to do this — you can apply the same method applied to the Fashion MNIST dataset but now apply it to the hand written letters MNIST dataset).
 
 ### Answer: 
-  Probability model for image/data at index 30 in the x_test set. The random digit had the highest probability (nearly 100%) that it is a label four. 
-  
+  Probability model for image/data at index 30 in the x_test set. The random digit had the highest probability that it is a label four. 
+  ![](DATA310_Resp7_8pt3.png)
   
 ### - Use np.argmax() with your predictions object to return the numeral with the highest probability from the test labels dataset.
 
