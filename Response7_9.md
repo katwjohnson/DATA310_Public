@@ -17,11 +17,13 @@
 
 ### Answer:
   The graph shows that as the number of epochs performed increases the loss decreases; however, the validation loss appears to level out at 10 epochs with a loss value of about 0.35.
+  ![](DATA310_Resp7_9.png)
 
 ## Question 4:
 ### Likewise do the same for the training and validation accuracy graph.
 
 ### Answer:
   The graph shows that as the number of epochs are performed increases, the accuracy also increases; however, like with the loss graph the increase in accuracy becomes much more gradual after about 10 epochs.
+  ![](DATA310_Resp7_9pt2.png)
 
   
