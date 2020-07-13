@@ -1,4 +1,4 @@
-# DATA310 Machine Learning Daily Class Responses
+# DATA310 Machine Learning Daily Class Responses and Class Projects
 
 ## July 7th, 2020: Class 2
 ### [Response](Response7_7.md)
@@ -10,4 +10,4 @@
 ### [Response](Response7_9.md)
 
 ## Project 1
-[YouTube Link](https://youtu.be/8YfFboV4KEs)
+### [YouTube Link](https://youtu.be/8YfFboV4KEs)
