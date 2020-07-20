@@ -24,8 +24,13 @@ For my draft design I decided to have my content image be of Wren since it is on
 
 Style Image
 
+![](Burrito_3.png)
+
 Content Image
+
 ![](Nugget.jpg)
 
-Final Image
 
+## Final Image
+
+![](FinalNuggetBurrito.png)
