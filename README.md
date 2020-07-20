@@ -15,3 +15,6 @@
 
 ## Alumni Luncheon: Tommy Jones
 ### [Summary and Takeaways](Alumni_Luncheon.md)
+
+## July 14th, 2020: Class 6
+### [Response](Response7_14.md)
