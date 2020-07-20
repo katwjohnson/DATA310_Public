@@ -15,3 +15,13 @@ For my draft design I decided to have my content image be of Wren since it is on
 
 
 
+
+
+
+
+
+
+
+
+
+Other image
