@@ -24,3 +24,6 @@
 
 ## Project 2
 ### [Shirt Draft](Project_2.md)
+
+## July 20th, 2020: Class 9
+### [Response](Response7_20.md)
