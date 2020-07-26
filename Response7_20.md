@@ -6,19 +6,22 @@
 
 ### Answer:
   For the cat vs. dog model the optimizer I used was RMSprop. RMSprop, root mean square prop, was selected over other optimizers because of its ability to keep adjusting the average of the squared gradients for each weight then dividing the gradient by the square root of the mean square. By using the moving average, the learning rate is able to be adapted. Additionally, RMSprop works better for larger datasets than other optimizers such as Rprop and Adam.
-  [Link](https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a)
+  
+  [Source Link](https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a)
   
 ## Question 2: Describe your selected loss function and it’s implementation.  How is it effectively penalizing bad predictions?
 
 ### Answer:
   I used the binary cross-entropy loss function, because the classification is binary (cat or dog). The loss function penalizes bad predictions based on the prediction’s probability. In other words, if the probability between an image and its actual label is low (like .015) then the loss has to be large. However, if the probability between the image and the actual label is 1.0 or close to 1.0 then the loss has to be zero or close to zero.
-  [Link](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
+  
+  [Source Link](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
   
 ## Question 3: What is the purpose of the metric= argument in your model.compile() function?
 
 ### Answer:
   A metric function is used to determine how well a model is performing. There are different types of metrics depending on how someone would want to evaluate the performance of their model. 
-  [Link](https://keras.io/api/metrics/)
+  
+  [Source Link](https://keras.io/api/metrics/)
 
 ## Question 4: Plot the accuracy and loss results for both the training and test datasets.  Include these in your response.  Assess the model and describe how good you think it performed.
 
