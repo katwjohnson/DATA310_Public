@@ -24,6 +24,7 @@
 
 ### Answer: 
   The model performed okay, with that being said it is still clearly overfit. Between the 14th epoch and the 15th epoch the validation accuracy went from 0.8167 to 0.7913. Then looking at the graphs the loss validation goes up and down a couple of times, but especially around the 9th epoch.
+  ![](Resp_7_20_1.png)
 
 ## Question 5: Use the model to predict 3 dog images and 3 cat images.  Upload you images and the prediction.  How did your model perform in practice?  Do you have any ideas of how to improve the model’s performance?
 
