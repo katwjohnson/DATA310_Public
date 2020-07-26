@@ -19,6 +19,8 @@
 ## July 14th, 2020: Class 6
 ### [Response](Response7_14.md)
 
+## July 15th, 2020: Class 7
+### [Response](Response7_15.md)
 
 ## Project 2
 ### [Shirt Draft](Project_2.md)
