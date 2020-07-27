@@ -27,3 +27,6 @@
 
 ## July 20th, 2020: Class 9
 ### [Response](Response7_20.md)
+
+## July 21st, 2020: Class 10
+### [Response](Response7_21.md)
