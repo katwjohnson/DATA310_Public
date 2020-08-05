@@ -10,3 +10,36 @@
 ## Question 2: Compile and train the model from the tensorflow exercise. Plot the training and validation loss as well as accuracy. Post your plots and describe them.
 
 ### Answer:
+
+![](Lab7_28val_loss.png)
+
+Validation loss decreases for the first epochs but then by the second epoch the validation loss continues to increase and decrease about every other epoch until the nineth epoch in which it increases drastically. This is contrast to the training loss shows a consistant decrease.
+
+![](Lab7_28val_acc.png)
+
+Similar to the validation loss, the validation accuracy reaches it most optimal point at around two epochs. After the second epochs the validation accuracy goes through a series of increases and decreases, yet is never able to reach a higher accuracy than it did on the second epoch. In contrast the training accuracy shows a consistent improvement in accuracy reaching 99%
+
+When looking at both the training/validation loss and accuracy graphs it becomes clear that the model is overfit.
+
+## Text Classification with an RNN
+
+## Question 1: Again compile and train the model from the tensorflow exercise. Plot the training and validation loss as well as accuracy. Stack two or more LSTM layers in your model. Post your plots and describe them.
+
+### Answer:
+
+![](Lab7_28loss.png)
+
+![](Lab7_28acc.png)
+
+### With two-layers of LSTM:
+
+Loss with 2 LSTM Layers-
+
+![](Lab7_28loss_LSTM.png)
+
+Accuracy with 2 LSTM Layers-
+![](Lab7_28acc_LSTM.png)
+
+Honestly, I expected to see a larger difference concerning accuracy and loss between the model without the two LSTM layers and the model with the two LSTM layers. For the most part they have the same shape, but the 2 LSTM layer model does show slight improvement with accuracy; however, it does worse with the loss. I would maybe add more LSTM layers and run it to see if it improves or would just make it worse. Regardless, both models are overfit.  
+
+
