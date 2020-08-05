@@ -109,3 +109,7 @@ from Spanish to English. How did your translations turn out?
 ### Answer: 
 
 It did not go very well, which makes sense to me. Throughout Arabic class at College it has always been painfully obvious when someone tries to use Google Translate for assignments, because it does not understand the aspects of the word that have to do with culture or even if you have words that can appear to mean the same thing but they are used in different contexts.
+
+![](Lab7_29_1.png)
+![](Lab7_29_2.png)
+![](Lab7_29_3.png)
