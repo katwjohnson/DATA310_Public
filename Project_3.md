@@ -1,8 +1,12 @@
 # Write-Up on Project 3
 
+## Set-up
+
 There were lots of obstacles with this project, but the hints and sources on the internet quickly became my best friends. First, I struggled with getting the images loaded into my model. After doing so research on the I tried using Image.open() but from what I could tell it would mess-up the order of the files. It would be completely useless to get the images and the labels uploaded if they did not even match each other and I tried to train my model with wrong information; however, the hint for uploading the files came just in time. I redid the structure of my file concerning the training and testing images. Now I had the first three Accra files were all in a folder named train_images and the fourth Accra file was in a folder named test_images. The new code kept the images matched with the correct labels, so I just used that. 
 
 Next, I tried to standardize my data; however, I got an error that said that my computer did not have enough space. I did not want to delete or remove anything from my computer, and I did not know of a different way to fix the problem. I ended up not standardizing the data by dividing by 255 which is definitely something that I would change if I was on a different computer/set-up. 
+
+## Models
 
 I created a small DNN model as suggested just to make sure that everything was okay. Using a Sequential model with the first layer that included a flatten layer, a dense layer with 32 neurons, another dense layer with 64 neurons, and then the last dense layer with 1 neuron. I used Relu as my activation because in the past we have used ReLu on other larger datasets. I believe that this is because ReLu is the best at handling the vanishing gradient problem. When I compiled the model, I used a Adam Optimizer and sparse_categorical_crossentropy as my loss function. I selected Adam and sparse_categorical_crossentropy out of comfort and familiarity not effectiveness concerning the application, which became painfully clear. At this point I thought I had just completely messed everything up and was very confused on where to even go from there. When looking at my model and trying to figure out where it all went wrong, I realized that did not have a good reason for using the Adam, sparse_categorical_crossentropy, or even my metric of accuracy. From there I hit the internet to try and understand whether or not the aspects in model were actually the appropriate ones to use. Quickly, I realized that they were absolutely not the correct functions to use. I switched from the Adam to the RMSprop optimizer which works way better with larger datasets and has a moving average. Then I changed sparse_categorical_crossentropy to MSE, because sparse_categorical_crossentropy is used as a probabilistic loss which is not at all what I needed. I selected MSE because it is the most used loss function when looking at regression problems and it would best handle outlier predictions. Then I changed the metric to correctly reflect what and how I was evaluating the data. I changed the accuracy to MAE and MSE instead. 
 
@@ -24,7 +28,9 @@ CNN Model used:
 
 ![](CNNP3.png)
 
-## Random Image 1 (Index 120):
+## Random Images
+
+### Random Image 1 (Index 120):
 
 ![](Image120P3.png)
 
@@ -32,7 +38,7 @@ CNN Model used:
 
 - Actual Population: 9.23079299926758
 
-## Random Image 2 (Index 183):
+### Random Image 2 (Index 183):
 
 ![](Image183P3.png)
 
@@ -40,7 +46,7 @@ CNN Model used:
 
 - Actual Population: 37.5414886474609
 
-## Random Image 3 (Index 4019):
+### Random Image 3 (Index 4019):
 
 ![](Image4019P3.png)
 
@@ -48,9 +54,11 @@ CNN Model used:
 
 - Actual Population: 36.320446014403
 
+## Thoughts on Results
 
 The results show that the model does a better job at predicting rural areas than urban areas. A reason why the first image might have been so off was because of the significant tree cover present in the image. When looking at the third random image the model does not do well maybe because height of the building is not able to be taken into account, the number of floors in a building can greatly impact the number of people capable of living there.   
 
+## Reflection on Project
 
 This project absolutely helped me better understand which loss, activation, optimizer, and metrics to use. When I hit the first really big wall it was pretty daunting, and I just completely lost confidence in all of my code, data, and understanding of the topic; however, I was able to breakdown the problem and work through it one piece at a time which allowed me to come to the conclusion that the problem was completely manageable and I was just psyching myself out for the most part. Also, this really helped me become more aware of not only the various features of the model itself, but also the resources online that help describe the different types of features. While the project was difficult, I feel like it had necessary, manageable obstacles that once I was able to figure out, I gained more confidence overall in my understanding and ability to execute.     
 
