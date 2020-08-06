@@ -33,3 +33,12 @@
 
 ## July 22nd, 2020: Class 11
 ### [Response](Response7_22.md)
+
+## Project 3
+### [Accra Population Prediction](Project_3.md)
+
+## July 28th, 2020: Class 14
+### [Response](Resp7_28.md)
+
+## July 29th, 2020: Class 15
+### [Response](Resp7_29.md)
