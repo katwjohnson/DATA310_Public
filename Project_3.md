@@ -24,7 +24,7 @@ CNN Model used:
 
 ![](CNNP3.png)
 
-Random Image 1 (Index 120):
+## Random Image 1 (Index 120):
 
 ![](Image120P3.png)
 
@@ -32,7 +32,7 @@ Random Image 1 (Index 120):
 
 - Actual Population: 9.23079299926758
 
-Random Image 2 (Index 183):
+## Random Image 2 (Index 183):
 
 ![](Image183P3.png)
 
@@ -40,7 +40,7 @@ Random Image 2 (Index 183):
 
 - Actual Population: 37.5414886474609
 
-Random Image 3 (Index 4019):
+## Random Image 3 (Index 4019):
 
 ![](Image4019P3.png)
 
