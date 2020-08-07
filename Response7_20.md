@@ -1,5 +1,16 @@
 # Response for Class on 7/20
 
+## Problem Statement
+
+### Introduction:
+A current, popular theme throughout American politics is polarization. Much of the focus concerning polarization has been on different forms of polarization within either the political elites or the electorate. Yet, also during this time period there has been a spotlight placed on news and media outlets. News and media outlets have always had critics claiming their organization or publications have strong biases, but in the age of “Fake News” and “untruths” the significance and implications of these biases can be more drastic. An individual may be more like to distrust a news source that they believe to be biased, and instead turn to a news source they believe to be objective. While, on the surface this may appear to be a responsible way to proceed, in the context of a polarized society an individual must also note their own bias. Is a news article bias, or do they simply disagree with it? Is a news article objective, or do they simply agree with it? This can damage the flow of correct information when an individual rejects critical facts from the very beginning just because they believe the source to be biased. 
+
+### Research Question:
+In this context, the foundational question must be raised, how biased are various news and media outlets?
+
+### Obstacles:
+I am a little worried about finding a dataset that is large enough with many different actricle from various publishers. Also, this will probably consist a lot trial and error with figuring out what type of model and specific features to use. Hopefully, I can find a model to work base mine off.   
+
 ## Cats and Dog Classifier
 
 ## Question 1: Which optimizer have you selected, and how might it compare to other possible choices?
