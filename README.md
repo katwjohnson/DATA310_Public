@@ -42,3 +42,6 @@
 
 ## July 29th, 2020: Class 15
 ### [Response](Resp7_29.md)
+
+## August 6th, 2020: Class 20
+### [Final Project](FinalProject.md)
