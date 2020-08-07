@@ -2,7 +2,7 @@
 
 ### Project Poster:
 
- 
+![](DATA310FinalPoster.png) 
 
 ## Introduction & Problem Statement
 
